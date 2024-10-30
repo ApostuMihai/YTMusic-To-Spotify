@@ -14,4 +14,4 @@
 2. Log in and then click on "See it in action"
 3. On the left there's going to be some JavaScript code with a token: const token = "....". Copy that token and add it in your .env file.
 4. For YouTube/Spotify playlists you just get the id from their respective URLs.
-5. If you generate an authorization token for Spotify by making a POST request with your client ID and client secret it won't have permission to add songs to a playlist. That's why you need this token. 
+5. If you generate an authorization token for Spotify by making a POST request with your client ID and client secret it won't have permission to add songs to a playlist. That's why you need that specific token.
